@@ -1,0 +1,24 @@
+.ui-page { 
+    background:#DCEDC8;
+}
+@media all and (min-width: 36em){
+	.main { float: left; width:60%; }
+	.sidebar { float: left; width:40%; }
+}
+
+body { font-family: Helvetica, san-serif; }
+h1,h2 { color: green; }
+a:link { color:purple; }
+
+/* Stack the two content containers */
+.main,
+.sidebar { display:block; width:100%; }
+
+@media (min-width: 575px) {
+  article {
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
